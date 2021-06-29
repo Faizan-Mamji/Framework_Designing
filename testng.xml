@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Regression Suite" verbose="1">
+    <listeners>
+        <listener class-name="org.systems.listeners.AllureListener"/>
+    </listeners>
+    <test name="Regression Cases">
+        <classes>
+            <class name="org.systems.testExecution.smokeTest"/>
+        </classes>
+    </test>
+</suite>
