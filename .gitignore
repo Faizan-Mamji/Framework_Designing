@@ -1,7 +1,4 @@
 .idea
-*.target/*
-logs/*
-test-output/*
-allure-results/*
-Screenshot_POTs/*
-*.iml
+target/
+test-output/
+.iml
