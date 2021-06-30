@@ -3,5 +3,5 @@ target/
 test-output/
 .iml
 allure-results/
-Screenshot_POTs/
+Screenshot_Mobile_POTs/
 logs/

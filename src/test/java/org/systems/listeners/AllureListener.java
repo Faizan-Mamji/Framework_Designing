@@ -3,14 +3,18 @@ package org.systems.listeners;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.qameta.allure.Attachment;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
 import org.systems.utils.pageFactory;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
 public class AllureListener implements ITestListener {
+
+    public int getBrowserWidth, getBrowserHeight, getWidthAfterMaximize, getHeightAfterMaximize;
 
     private static String getTestMethodName(ITestResult iTestResult) {
         return iTestResult.getMethod().getConstructorOrMethod().getName();
@@ -20,6 +24,11 @@ public class AllureListener implements ITestListener {
     @Attachment(value = "Page screenshot", type = "image/png")
     public byte[] saveScreenshotPNG(AppiumDriver<MobileElement> driver) {
         return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+    }
+
+    @Attachment(value = "Page screenshot Web", type = "image/png")
+    public byte[] saveScreenshotPNGWeb(WebDriver driverweb) {
+        return ((TakesScreenshot) driverweb).getScreenshotAs(OutputType.BYTES);
     }
 
     // Text attachments for Allure
@@ -55,13 +64,24 @@ public class AllureListener implements ITestListener {
         System.out.println("I am in onTestSuccess method " + getTestMethodName(iTestResult) + " succeed");
         Object testClass = iTestResult.getInstance();
         AppiumDriver<MobileElement> driver = pageFactory.getDriver();
-        // Allure ScreenShotRobot and SaveTestLog
-        if (driver instanceof AppiumDriver) {
-            System.out.println("Screenshot captured for test case:" + getTestMethodName(iTestResult));
-            saveScreenshotPNG(driver);
+        WebDriver browserDriver = pageFactory.getWebDriver();
+        getBrowserHeight = 0;
+        getBrowserWidth = 0;
+        getBrowserWidth = browserDriver.manage().window().getSize().getWidth();
+        getBrowserHeight = browserDriver.manage().window().getSize().getHeight();
+        if (getBrowserWidth < 1060) {
+            if (driver instanceof AppiumDriver) {
+                System.out.println("Screenshot captured for test case:" + getTestMethodName(iTestResult));
+                saveScreenshotPNG(driver);
+                saveTextLog(getTestMethodName(iTestResult) + " Passed and screenshot taken!");
+            }
+        } else if (getBrowserWidth > 1500) {
+            if (browserDriver instanceof WebDriver) {
+                System.out.println("Screenshot captured for test case:" + getTestMethodName(iTestResult));
+                saveScreenshotPNGWeb(browserDriver);
+                saveTextLog(getTestMethodName(iTestResult) + " failed and screenshot taken!");
+            }
         }
-        // Save a log on allure.
-        saveTextLog(getTestMethodName(iTestResult) + " Passed and screenshot taken!");
     }
 
     @Override
@@ -69,14 +89,22 @@ public class AllureListener implements ITestListener {
         System.out.println("I am in onTestFailure method " + getTestMethodName(iTestResult) + " failed");
         Object testClass = iTestResult.getInstance();
         AppiumDriver<MobileElement> driver = pageFactory.getDriver();
+        WebDriver browserDriver = pageFactory.getWebDriver();
+
         // Allure ScreenShotRobot and SaveTestLog
 
         if (driver instanceof AppiumDriver) {
             System.out.println("Screenshot captured for test case:" + getTestMethodName(iTestResult));
             saveScreenshotPNG(driver);
+            saveTextLog(getTestMethodName(iTestResult) + " failed and screenshot taken!");
         }
         // Save a log on allure.
-        saveTextLog(getTestMethodName(iTestResult) + " failed and screenshot taken!");
+        if (browserDriver instanceof WebDriver) {
+            System.out.println("Screenshot captured for test case:" + getTestMethodName(iTestResult));
+            saveScreenshotPNGWeb(browserDriver);
+            saveTextLog(getTestMethodName(iTestResult) + " failed and screenshot taken!");
+        }
+//        saveTextLog(getTestMethodName(iTestResult) + " failed and screenshot taken!");
     }
 
     @Override

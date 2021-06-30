@@ -20,9 +20,11 @@ public class pageFactory {
     public AppiumDriver<MobileElement> driver;
     public WebDriver driverWeb;
     public DesiredCapabilities caps;
+    public int getBrowserWidth, getBrowserHeight, getWidthAfterMaximize, getHeightAfterMaximize;
     public propertyReader objPR = new propertyReader();
     public final Logger log = LogManager.getLogger(implementation.class);
     public static ThreadLocal<AppiumDriver<MobileElement>> tdriver = new ThreadLocal<AppiumDriver<MobileElement>>();
+    public static ThreadLocal<WebDriver> tWdriver = new ThreadLocal<>();
 
     public AppiumDriver<MobileElement> launchMainDriver() {
         caps = new DesiredCapabilities();
@@ -60,10 +62,12 @@ public class pageFactory {
                 System.setProperty("webdriver.chrome.driver", "chromeDriver_Win32/chromedriver.exe");
                 driverWeb = new ChromeDriver();
                 driverWeb.navigate().to(objPR.getValue("accessUrl"));
-                driverWeb.manage().window().maximize();
+                getBrowserWidth = driverWeb.manage().window().getSize().getWidth();
+                getBrowserHeight = driverWeb.manage().window().getSize().getHeight();
                 driverWeb.manage().timeouts().pageLoadTimeout(Integer.parseInt(objPR.getValue("webPageLoad")), TimeUnit.SECONDS);
                 driverWeb.manage().timeouts().implicitlyWait(Integer.parseInt(objPR.getValue("implicitWait")), TimeUnit.SECONDS);
             }
+            tWdriver.set(driverWeb);
         } catch (NullPointerException ex) {
             log.info("Error when launching mobile driver " + ex.getMessage());
             Assert.fail();
@@ -73,5 +77,9 @@ public class pageFactory {
         }
         return driverWeb;
 
+    }
+
+    public static synchronized WebDriver getWebDriver() {
+        return tWdriver.get();
     }
 }

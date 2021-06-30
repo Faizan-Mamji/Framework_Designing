@@ -6,6 +6,8 @@ import io.appium.java_client.TouchAction;
 import io.qameta.allure.Step;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.Dimension;
+import org.openqa.selenium.WebDriver;
 import org.systems.mainPageObjects.mobileElements.splashPage;
 import org.systems.mainPageObjects.mobileElements.supportPage;
 import org.systems.utils.commonFunctions;
@@ -23,11 +25,12 @@ public class implementation extends pageFactory {
     public propertyReader objPR = new propertyReader();
     public final Logger log = LogManager.getLogger(implementation.class);
 
-    public implementation(AppiumDriver<MobileElement> driver) {
+    public implementation(AppiumDriver<MobileElement> driver, WebDriver mainWeb) {
         this.driver = driver;
+        this.driverWeb = mainWeb;
         objSP = new splashPage(driver);
         objSUP = new supportPage(driver);
-        objCF = new commonFunctions(driver);
+        objCF = new commonFunctions(driver, driverWeb);
         TouchAction tc = new TouchAction(driver);
     }
 
@@ -82,5 +85,17 @@ public class implementation extends pageFactory {
     }
 
     public void login_App_QuickAccess(String accountCode, String password) {
+    }
+
+    public void webNavigationTest() {
+        try {
+            driverWeb.manage().window().maximize();
+            TimeUnit.SECONDS.sleep(3);
+            driverWeb.navigate().to("https://www.google.com/");
+            objCF.screenshotCapturingWeb();
+        } catch (Exception ex) {
+            ex.getMessage();
+        }
+
     }
 }

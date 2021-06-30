@@ -336,3 +336,172 @@ Driver info: io.appium.java_client.AppiumDriver
 Capabilities {appActivity: sa.com.stc.MyBusiness.MainA..., appPackage: sa.com.stc.MyBusiness, automationName: UIAutomator2, databaseEnabled: false, desired: {appActivity: sa.com.stc.MyBusiness.MainA..., appPackage: sa.com.stc.MyBusiness, automationName: UIAutomator2, newCommandTimeout: 1000, noReset: false, platformName: android}, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-A125F, deviceName: R58NC2CR3JF, deviceScreenDensity: 300, deviceScreenSize: 720x1600, deviceUDID: R58NC2CR3JF, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1000, noReset: false, pixelRatio: 1.875, platform: LINUX, platformName: android, platformVersion: 10, statBarHeight: 45, takesScreenshot: true, viewportRect: {height: 1420, left: 0, top: 45, width: 720}, warnings: {}, webStorageEnabled: false}
 Session ID: 07f313f3-59a8-4632-931c-7c6fc663d035
 *** Element info: {Using=xpath, value=//*[@text='Enter OTP']//*[@class='android.widget.EditText']}
+2021-06-30 13:42:24 [main] INFO  org.systems.businessLayer.implementation - Login Page Opens successfully!
+2021-06-30 13:42:26 [main] INFO  org.systems.businessLayer.implementation - Enter Username in field
+2021-06-30 13:42:27 [main] INFO  org.systems.businessLayer.implementation - Enter Password in field
+2021-06-30 13:42:32 [main] INFO  org.systems.businessLayer.implementation - clicked on login button
+2021-06-30 13:42:44 [main] INFO  org.systems.businessLayer.implementation - clicked on login button
+2021-06-30 13:42:45 [main] INFO  org.systems.businessLayer.implementation - OTP Field clear successfully!
+2021-06-30 13:42:46 [main] INFO  org.systems.businessLayer.implementation - OTP value entered successfully!
+2021-06-30 13:42:46 [main] INFO  org.systems.businessLayer.implementation - Button clicked successfully!
+2021-06-30 13:49:24 [main] INFO  org.systems.businessLayer.implementation - Login Page Opens successfully!
+2021-06-30 13:49:26 [main] INFO  org.systems.businessLayer.implementation - Enter Username in field
+2021-06-30 13:49:26 [main] INFO  org.systems.businessLayer.implementation - Enter Password in field
+2021-06-30 13:49:41 [main] INFO  org.systems.businessLayer.implementation - clicked on login button
+2021-06-30 13:49:48 [main] INFO  org.systems.businessLayer.implementation - clicked on login button
+2021-06-30 13:49:49 [main] INFO  org.systems.businessLayer.implementation - OTP Field clear successfully!
+2021-06-30 13:49:49 [main] INFO  org.systems.businessLayer.implementation - OTP value entered successfully!
+2021-06-30 13:49:51 [main] INFO  org.systems.businessLayer.implementation - Button clicked successfully!
+2021-06-30 13:53:35 [main] INFO  org.systems.businessLayer.implementation - Login Page Opens successfully!
+2021-06-30 13:53:38 [main] INFO  org.systems.businessLayer.implementation - Enter Username in field
+2021-06-30 13:53:38 [main] INFO  org.systems.businessLayer.implementation - Enter Password in field
+2021-06-30 13:53:43 [main] INFO  org.systems.businessLayer.implementation - clicked on login button
+2021-06-30 13:53:55 [main] INFO  org.systems.businessLayer.implementation - clicked on login button
+2021-06-30 13:53:57 [main] INFO  org.systems.businessLayer.implementation - OTP Field clear successfully!
+2021-06-30 13:53:58 [main] INFO  org.systems.businessLayer.implementation - OTP value entered successfully!
+2021-06-30 13:53:59 [main] INFO  org.systems.businessLayer.implementation - Button clicked successfully!
+2021-06-30 13:55:57 [main] INFO  org.systems.businessLayer.implementation - Login Page Opens successfully!
+2021-06-30 13:56:00 [main] INFO  org.systems.businessLayer.implementation - Enter Username in field
+2021-06-30 13:56:00 [main] INFO  org.systems.businessLayer.implementation - Enter Password in field
+2021-06-30 13:56:05 [main] INFO  org.systems.businessLayer.implementation - clicked on login button
+2021-06-30 13:56:12 [main] INFO  org.systems.businessLayer.implementation - clicked on login button
+2021-06-30 13:56:13 [main] INFO  org.systems.businessLayer.implementation - OTP Field clear successfully!
+2021-06-30 13:56:14 [main] INFO  org.systems.businessLayer.implementation - OTP value entered successfully!
+2021-06-30 13:56:15 [main] INFO  org.systems.businessLayer.implementation - Button clicked successfully!
+2021-06-30 13:59:37 [main] INFO  org.systems.businessLayer.implementation - Login Page Opens successfully!
+2021-06-30 13:59:40 [main] INFO  org.systems.businessLayer.implementation - Enter Username in field
+2021-06-30 13:59:40 [main] INFO  org.systems.businessLayer.implementation - Enter Password in field
+2021-06-30 13:59:46 [main] INFO  org.systems.businessLayer.implementation - clicked on login button
+2021-06-30 13:59:53 [main] INFO  org.systems.businessLayer.implementation - clicked on login button
+2021-06-30 13:59:54 [main] INFO  org.systems.businessLayer.implementation - OTP Field clear successfully!
+2021-06-30 13:59:55 [main] INFO  org.systems.businessLayer.implementation - OTP value entered successfully!
+2021-06-30 13:59:56 [main] INFO  org.systems.businessLayer.implementation - Button clicked successfully!
+2021-06-30 15:24:31 [main] INFO  org.systems.businessLayer.implementation - Login Page Opens successfully!
+2021-06-30 15:24:33 [main] INFO  org.systems.businessLayer.implementation - Enter Username in field
+2021-06-30 15:24:34 [main] INFO  org.systems.businessLayer.implementation - Enter Password in field
+2021-06-30 15:24:39 [main] INFO  org.systems.businessLayer.implementation - clicked on login button
+2021-06-30 15:24:49 [main] INFO  org.systems.businessLayer.implementation - clicked on login button
+2021-06-30 15:24:50 [main] INFO  org.systems.businessLayer.implementation - OTP Field clear successfully!
+2021-06-30 15:24:51 [main] INFO  org.systems.businessLayer.implementation - OTP value entered successfully!
+2021-06-30 15:24:53 [main] INFO  org.systems.businessLayer.implementation - Button clicked successfully!
+2021-06-30 17:25:19 [main] INFO  org.systems.businessLayer.implementation - Login Page Opens successfully!
+2021-06-30 17:25:21 [main] INFO  org.systems.businessLayer.implementation - Enter Username in field
+2021-06-30 17:25:21 [main] INFO  org.systems.businessLayer.implementation - Enter Password in field
+2021-06-30 17:25:27 [main] INFO  org.systems.businessLayer.implementation - clicked on login button
+2021-06-30 17:31:56 [main] INFO  org.systems.businessLayer.implementation - Login Page Opens successfully!
+2021-06-30 17:31:59 [main] INFO  org.systems.businessLayer.implementation - Enter Username in field
+2021-06-30 17:32:00 [main] INFO  org.systems.businessLayer.implementation - Enter Password in field
+2021-06-30 17:32:05 [main] INFO  org.systems.businessLayer.implementation - clicked on login button
+2021-06-30 17:32:14 [main] INFO  org.systems.businessLayer.implementation - clicked on login button
+2021-06-30 17:32:15 [main] INFO  org.systems.businessLayer.implementation - OTP Field clear successfully!
+2021-06-30 17:32:16 [main] INFO  org.systems.businessLayer.implementation - OTP value entered successfully!
+2021-06-30 17:32:17 [main] INFO  org.systems.businessLayer.implementation - Button clicked successfully!
+2021-06-30 17:36:14 [main] INFO  org.systems.businessLayer.implementation - Login Page Opens successfully!
+2021-06-30 17:36:17 [main] INFO  org.systems.businessLayer.implementation - Enter Username in field
+2021-06-30 17:36:17 [main] INFO  org.systems.businessLayer.implementation - Enter Password in field
+2021-06-30 17:36:22 [main] INFO  org.systems.businessLayer.implementation - clicked on login button
+2021-06-30 17:36:32 [main] INFO  org.systems.businessLayer.implementation - clicked on login button
+2021-06-30 17:36:33 [main] INFO  org.systems.businessLayer.implementation - OTP Field clear successfully!
+2021-06-30 17:36:34 [main] INFO  org.systems.businessLayer.implementation - OTP value entered successfully!
+2021-06-30 17:36:35 [main] INFO  org.systems.businessLayer.implementation - Button clicked successfully!
+2021-06-30 17:40:30 [main] INFO  org.systems.businessLayer.implementation - Login Page Opens successfully!
+2021-06-30 17:40:32 [main] INFO  org.systems.businessLayer.implementation - Enter Username in field
+2021-06-30 17:40:32 [main] INFO  org.systems.businessLayer.implementation - Enter Password in field
+2021-06-30 17:40:38 [main] INFO  org.systems.businessLayer.implementation - clicked on login button
+2021-06-30 17:40:51 [main] INFO  org.systems.businessLayer.implementation - clicked on login button
+2021-06-30 17:40:52 [main] INFO  org.systems.businessLayer.implementation - OTP Field clear successfully!
+2021-06-30 17:40:53 [main] INFO  org.systems.businessLayer.implementation - OTP value entered successfully!
+2021-06-30 17:40:54 [main] INFO  org.systems.businessLayer.implementation - Button clicked successfully!
+2021-06-30 17:43:17 [main] INFO  org.systems.businessLayer.implementation - Login Page Opens successfully!
+2021-06-30 17:43:19 [main] INFO  org.systems.businessLayer.implementation - Enter Username in field
+2021-06-30 17:43:19 [main] INFO  org.systems.businessLayer.implementation - Enter Password in field
+2021-06-30 17:43:25 [main] INFO  org.systems.businessLayer.implementation - clicked on login button
+2021-06-30 17:43:31 [main] INFO  org.systems.businessLayer.implementation - clicked on login button
+2021-06-30 17:43:32 [main] INFO  org.systems.businessLayer.implementation - OTP Field clear successfully!
+2021-06-30 17:43:33 [main] INFO  org.systems.businessLayer.implementation - OTP value entered successfully!
+2021-06-30 17:43:34 [main] INFO  org.systems.businessLayer.implementation - Button clicked successfully!
+2021-06-30 17:47:55 [main] INFO  org.systems.businessLayer.implementation - Login Page Opens successfully!
+2021-06-30 17:47:58 [main] INFO  org.systems.businessLayer.implementation - Enter Username in field
+2021-06-30 17:47:58 [main] INFO  org.systems.businessLayer.implementation - Enter Password in field
+2021-06-30 17:48:04 [main] INFO  org.systems.businessLayer.implementation - clicked on login button
+2021-06-30 17:48:12 [main] INFO  org.systems.businessLayer.implementation - clicked on login button
+2021-06-30 17:48:13 [main] INFO  org.systems.businessLayer.implementation - OTP Field clear successfully!
+2021-06-30 17:48:14 [main] INFO  org.systems.businessLayer.implementation - OTP value entered successfully!
+2021-06-30 17:48:15 [main] INFO  org.systems.businessLayer.implementation - Button clicked successfully!
+2021-06-30 17:50:40 [main] INFO  org.systems.businessLayer.implementation - Login Page Opens successfully!
+2021-06-30 17:51:50 [main] INFO  org.systems.businessLayer.implementation - Method: login_App_FullAccess Full Access Login failed in implementation class An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KHILT-7757', ip: '192.168.147.26', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: sa.com.stc.MyBusiness.MainA..., appPackage: sa.com.stc.MyBusiness, automationName: UIAutomator2, databaseEnabled: false, desired: {appActivity: sa.com.stc.MyBusiness.MainA..., appPackage: sa.com.stc.MyBusiness, automationName: UIAutomator2, newCommandTimeout: 1000, noReset: false, platformName: android}, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-A125F, deviceName: R58NC2CR3JF, deviceScreenDensity: 300, deviceScreenSize: 720x1600, deviceUDID: R58NC2CR3JF, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1000, noReset: false, pixelRatio: 1.875, platform: LINUX, platformName: android, platformVersion: 10, statBarHeight: 45, takesScreenshot: true, viewportRect: {height: 1420, left: 0, top: 45, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 0d6c3002-c4a8-40bc-a033-1f916f7610dd
+*** Element info: {Using=xpath, value=//*[@text='User Name']//*[@class='android.widget.EditText']}
+2021-06-30 17:52:29 [main] INFO  org.systems.businessLayer.implementation - Login Page Opens successfully!
+2021-06-30 17:52:32 [main] INFO  org.systems.businessLayer.implementation - Enter Username in field
+2021-06-30 17:52:32 [main] INFO  org.systems.businessLayer.implementation - Enter Password in field
+2021-06-30 17:52:38 [main] INFO  org.systems.businessLayer.implementation - clicked on login button
+2021-06-30 17:52:46 [main] INFO  org.systems.businessLayer.implementation - clicked on login button
+2021-06-30 17:52:47 [main] INFO  org.systems.businessLayer.implementation - OTP Field clear successfully!
+2021-06-30 17:52:48 [main] INFO  org.systems.businessLayer.implementation - OTP value entered successfully!
+2021-06-30 17:52:49 [main] INFO  org.systems.businessLayer.implementation - Button clicked successfully!
+2021-06-30 18:02:57 [main] INFO  org.systems.businessLayer.implementation - Login Page Opens successfully!
+2021-06-30 18:02:59 [main] INFO  org.systems.businessLayer.implementation - Enter Username in field
+2021-06-30 18:03:00 [main] INFO  org.systems.businessLayer.implementation - Enter Password in field
+2021-06-30 18:03:05 [main] INFO  org.systems.businessLayer.implementation - clicked on login button
+2021-06-30 18:03:12 [main] INFO  org.systems.businessLayer.implementation - clicked on login button
+2021-06-30 18:03:13 [main] INFO  org.systems.businessLayer.implementation - OTP Field clear successfully!
+2021-06-30 18:03:14 [main] INFO  org.systems.businessLayer.implementation - OTP value entered successfully!
+2021-06-30 18:03:15 [main] INFO  org.systems.businessLayer.implementation - Button clicked successfully!
+2021-06-30 18:05:10 [main] INFO  org.systems.businessLayer.implementation - Login Page Opens successfully!
+2021-06-30 18:05:41 [main] INFO  org.systems.businessLayer.implementation - Enter Username in field
+2021-06-30 18:05:42 [main] INFO  org.systems.businessLayer.implementation - Enter Password in field
+2021-06-30 18:05:47 [main] INFO  org.systems.businessLayer.implementation - clicked on login button
+2021-06-30 18:05:58 [main] INFO  org.systems.businessLayer.implementation - clicked on login button
+2021-06-30 18:05:59 [main] INFO  org.systems.businessLayer.implementation - OTP Field clear successfully!
+2021-06-30 18:06:00 [main] INFO  org.systems.businessLayer.implementation - OTP value entered successfully!
+2021-06-30 18:06:01 [main] INFO  org.systems.businessLayer.implementation - Button clicked successfully!
+2021-06-30 18:10:27 [main] INFO  org.systems.businessLayer.implementation - Login Page Opens successfully!
+2021-06-30 18:10:30 [main] INFO  org.systems.businessLayer.implementation - Enter Username in field
+2021-06-30 18:10:30 [main] INFO  org.systems.businessLayer.implementation - Enter Password in field
+2021-06-30 18:10:36 [main] INFO  org.systems.businessLayer.implementation - clicked on login button
+2021-06-30 18:10:45 [main] INFO  org.systems.businessLayer.implementation - clicked on login button
+2021-06-30 18:10:46 [main] INFO  org.systems.businessLayer.implementation - OTP Field clear successfully!
+2021-06-30 18:10:48 [main] INFO  org.systems.businessLayer.implementation - OTP value entered successfully!
+2021-06-30 18:10:48 [main] INFO  org.systems.businessLayer.implementation - Button clicked successfully!
+2021-06-30 18:13:27 [main] INFO  org.systems.businessLayer.implementation - Login Page Opens successfully!
+2021-06-30 18:13:29 [main] INFO  org.systems.businessLayer.implementation - Enter Username in field
+2021-06-30 18:13:30 [main] INFO  org.systems.businessLayer.implementation - Enter Password in field
+2021-06-30 18:13:35 [main] INFO  org.systems.businessLayer.implementation - clicked on login button
+2021-06-30 18:13:45 [main] INFO  org.systems.businessLayer.implementation - clicked on login button
+2021-06-30 18:13:46 [main] INFO  org.systems.businessLayer.implementation - OTP Field clear successfully!
+2021-06-30 18:13:47 [main] INFO  org.systems.businessLayer.implementation - OTP value entered successfully!
+2021-06-30 18:13:48 [main] INFO  org.systems.businessLayer.implementation - Button clicked successfully!
+2021-06-30 18:21:37 [main] INFO  org.systems.businessLayer.implementation - Login Page Opens successfully!
+2021-06-30 18:21:39 [main] INFO  org.systems.businessLayer.implementation - Enter Username in field
+2021-06-30 18:21:40 [main] INFO  org.systems.businessLayer.implementation - Enter Password in field
+2021-06-30 18:21:45 [main] INFO  org.systems.businessLayer.implementation - clicked on login button
+2021-06-30 18:21:58 [main] INFO  org.systems.businessLayer.implementation - clicked on login button
+2021-06-30 18:22:00 [main] INFO  org.systems.businessLayer.implementation - OTP Field clear successfully!
+2021-06-30 18:22:00 [main] INFO  org.systems.businessLayer.implementation - OTP value entered successfully!
+2021-06-30 18:22:01 [main] INFO  org.systems.businessLayer.implementation - Button clicked successfully!
+2021-06-30 18:23:47 [main] INFO  org.systems.businessLayer.implementation - Login Page Opens successfully!
+2021-06-30 18:23:49 [main] INFO  org.systems.businessLayer.implementation - Enter Username in field
+2021-06-30 18:23:49 [main] INFO  org.systems.businessLayer.implementation - Enter Password in field
+2021-06-30 18:23:55 [main] INFO  org.systems.businessLayer.implementation - clicked on login button
+2021-06-30 18:24:06 [main] INFO  org.systems.businessLayer.implementation - clicked on login button
+2021-06-30 18:24:07 [main] INFO  org.systems.businessLayer.implementation - OTP Field clear successfully!
+2021-06-30 18:24:08 [main] INFO  org.systems.businessLayer.implementation - OTP value entered successfully!
+2021-06-30 18:24:08 [main] INFO  org.systems.businessLayer.implementation - Button clicked successfully!
+2021-06-30 18:28:54 [main] INFO  org.systems.businessLayer.implementation - Login Page Opens successfully!
+2021-06-30 18:28:56 [main] INFO  org.systems.businessLayer.implementation - Enter Username in field
+2021-06-30 18:28:57 [main] INFO  org.systems.businessLayer.implementation - Enter Password in field
+2021-06-30 18:29:02 [main] INFO  org.systems.businessLayer.implementation - clicked on login button
+2021-06-30 18:30:24 [main] INFO  org.systems.businessLayer.implementation - Login Page Opens successfully!
+2021-06-30 18:30:27 [main] INFO  org.systems.businessLayer.implementation - Enter Username in field
+2021-06-30 18:30:27 [main] INFO  org.systems.businessLayer.implementation - Enter Password in field
+2021-06-30 18:30:32 [main] INFO  org.systems.businessLayer.implementation - clicked on login button
+2021-06-30 18:30:40 [main] INFO  org.systems.businessLayer.implementation - clicked on login button
+2021-06-30 18:30:40 [main] INFO  org.systems.businessLayer.implementation - OTP Field clear successfully!
+2021-06-30 18:30:41 [main] INFO  org.systems.businessLayer.implementation - OTP value entered successfully!
+2021-06-30 18:30:42 [main] INFO  org.systems.businessLayer.implementation - Button clicked successfully!
